@@ -1,8 +1,8 @@
 # AI Drift Tools
 
-This directory contains practical frameworks for evaluating semantic drift and alignment in AI systems.
+This directory contains practical frameworks for detecting, evaluating, and governing drift in AI systems.
 
-These documents provide diagnostic methods, evaluation frameworks, and review tools for identifying when language models remain fluent and coherent while gradually losing alignment with user intent, source material, or real-world meaning.
+These documents focus on a specific failure mode: AI systems can remain fluent, coherent, operational, and apparently successful while gradually losing alignment with user intent, source material, organizational purpose, or real-world conditions.
 
 ---
 
@@ -10,22 +10,36 @@ These documents provide diagnostic methods, evaluation frameworks, and review to
 
 ### Detecting Silent Model Drift
 
-A framework for recognizing gradual changes in AI system behavior that occur without obvious failures, focusing on shifts in meaning, interpretation, and alignment over time.
+A diagnostic framework for identifying gradual behavioral and semantic degradation in large language models when conventional performance metrics remain stable.
 
-### Drift Audit Checklist
-
-A practical checklist for evaluating AI systems for signs of semantic drift, representation drift, and weakening alignment during development, deployment, and ongoing monitoring.
+It focuses on signals such as loss of specificity, instruction drift, reasoning degradation, increasingly generic outputs, and subtle context misalignment.
 
 ### Drift Evaluation Framework
 
-A structured evaluation framework for assessing how effectively AI systems preserve meaning, maintain semantic grounding, and resist degradation across retrieval, summarization, and generation tasks.
+A structured system for evaluating drift across five layers:
+
+**Data Drift → Performance Drift → Behavioral Drift → Semantic Drift → System Drift**
+
+The framework combines conventional monitoring with behavioral, semantic, and system-level evaluation to identify where misalignment begins and how it propagates through an AI system.
+
+### AI Governance Readiness Checklist
+
+A practical governance framework for determining whether an organization can detect and correct AI drift after deployment.
+
+It evaluates readiness across areas including purpose, policy, monitoring, semantic fidelity, correction mechanisms, vendor oversight, workflow integration, observability, and post-deployment governance.
 
 ---
 
 ## Purpose
 
-These documents translate the Semantic Fidelity framework into practical evaluation tools for AI systems. They are intended for researchers, developers, evaluators, and organizations seeking to identify semantic degradation before it becomes difficult to detect.
+Together, these tools provide three complementary layers of AI drift evaluation:
+
+**Detection** identifies subtle changes in model behavior.
+
+**Evaluation** locates drift across technical, behavioral, semantic, and system layers.
+
+**Governance** determines whether an organization has the capacity to recognize, investigate, and correct drift once it appears.
+
+The broader goal is to detect situations where AI systems continue functioning while the connection between outputs, intended meaning, and real-world conditions gradually weakens.
 
 ---
-
-*Part of the Reality Drift framework (2023–2026) by A. Jacobs.*
