@@ -1,43 +1,138 @@
 # Semantic Fidelity Papers
 
-This directory contains research papers exploring the preservation, transformation, and degradation of meaning in modern language systems.
+This is a six-paper conceptual paper series examining how meaning is preserved, altered, or lost as information moves across artificial intelligence systems, human cognition, and other representational systems.
 
-These papers examine Semantic Fidelity from the perspectives of artificial intelligence, information theory, language, and complex systems. Together they develop the conceptual foundations of the Semantic Fidelity framework and its application to AI-mediated communication.
+Its central concern is simple:
 
----
+**A representation can remain accurate, coherent, and recognizable while losing important parts of the meaning it was meant to carry.**
 
-## Included Papers
+Semantic fidelity refers to the degree to which meaning survives transformation. The project develops that idea across evaluation, compression, corrective feedback, cognition, and vocabulary.
 
-### What Is Semantic Fidelity?
+## Core Papers
 
-Introduces Semantic Fidelity as a framework for understanding whether meaning survives as language moves through compression, translation, and AI systems.
+### SFP 01 — What Is Semantic Fidelity
 
-### When Accuracy Isn't Enough
+**Preserving Meaning in the Age of Artificial Intelligence**
 
-Examines why factual accuracy alone is insufficient for evaluating AI outputs, arguing that preserving meaning requires more than correctness or fluency.
+Defines semantic fidelity and distinguishes it from factual accuracy, coherence, source faithfulness, semantic drift, and broader system-level Reality Drift.
 
-### The Compression Paradox
+The paper establishes the basic problem: representational failure can begin before obvious factual error appears.
 
-Explores how increasingly compressed representations can improve efficiency while simultaneously weakening semantic richness and contextual meaning.
+### SFP 02 — When Accuracy Is Not Enough
 
-### Constraint Collapse and Fidelity Decay
+**Evaluating Semantic Fidelity in AI Systems**
 
-Describes how language remains coherent even after the constraints preserving its connection to underlying meaning begin to weaken.
+Develops a practical approach for evaluating semantic fidelity.
 
-### Language as Cognitive Exhaust
+It focuses on the referent, the relationships that organize meaning, the transformations introduced by a system, and whether those transformations materially change interpretation or action.
 
-Examines language as a byproduct of cognition, arguing that generated language reveals the structure of underlying thought rather than merely communicating information.
+The paper also identifies recurring failure patterns such as hierarchy flattening, uncertainty loss, causal substitution, context displacement, and intent substitution.
 
-### Semantic Fidelity Lexicon
+### SFP 03 — The Compression Paradox in AI
 
-Provides a reference vocabulary defining the core terminology used throughout the Semantic Fidelity framework.
+**Why Meaning Can Degrade Before Models Hallucinate**
 
----
+Examines how compression can remove context, uncertainty, hierarchy, causality, and provenance while leaving an output fluent and recognizable.
 
-## Purpose
+The paper develops the idea that compression can remove structure while generative reconstruction conceals the fact that the structure was lost.
 
-These papers develop the theoretical foundation of the Semantic Fidelity framework and explore how meaning changes as information moves through compression, retrieval, translation, summarization, and generative AI systems.
+It also places Recursive Compression within the Semantic Fidelity framework.
 
----
+### SFP 04 — Constraint Collapse and Fidelity Decay
 
-*Part of the Reality Drift framework (2023–2026) by A. Jacobs.*
+**When Feedback Stops Correcting Symbolic Systems**
+
+Explains how systems can continue receiving feedback after that feedback has lost the power to enforce correction.
+
+Constraint Collapse describes the condition in which error can be detected, documented, and processed without changing the representation or process that produced it.
+
+The paper connects corrective failure to the persistence of semantic drift.
+
+### SFP 05 — Language as Cognitive Exhaust
+
+**What Language Reveals About Thought Compression and Artificial Intelligence**
+
+Develops cognitive exhaust as a model of language as a compressed residue of cognition rather than a complete record of the process that produced it.
+
+The paper examines the path from lived conditions to internal representation to linguistic expression, and then extends that process into human-AI co-cognition.
+
+It asks what happens when generated language becomes input to later human and machine thought.
+
+### SFP 06 — A Semantic Fidelity Lexicon
+
+**A Working Vocabulary for Meaning Preservation Across AI and Representational Systems**
+
+Defines the core vocabulary of the project.
+
+The lexicon distinguishes foundational conditions, mechanisms of loss, AI workflow failures, optimization dynamics, and ecosystem effects.
+
+Terms include:
+
+- Semantic Fidelity
+- Semantic Continuity
+- Semantic Drift
+- Reality Drift
+- Fidelity Decay
+- Recursive Compression
+- Recursive Mediation
+- Context Loss
+- Hierarchy Flattening
+- Constraint Collapse
+- Ground Erosion
+- Retrieval Drift
+- Interpretation Failure
+- Memory Drift
+- Agent Drift
+- Verification Failure
+- Verification Substitution
+- Proxy Optimization
+- Proxy Substitution
+- Evaluation Blindness
+- Synthetic Coherence
+- Optimization Trap
+- Recursive Synthetic Feedback
+- Provenance Failure
+- Citation Laundering
+- Evidence Laundering
+- Synthetic Realness
+- Lexical Decay
+
+## Project Structure
+
+The six papers follow a simple progression:
+
+**Definition → Evaluation → Mechanism → Correction Failure → Cognition and Culture → Vocabulary**
+
+SFP 01 establishes the concept.
+
+SFP 02 shows how to evaluate it.
+
+SFP 03 explains how loss can accumulate through compression.
+
+SFP 04 explains why corrective feedback can stop binding.
+
+SFP 05 extends the framework into language and human-AI cognition.
+
+SFP 06 stabilizes the vocabulary used across the project.
+
+## Relationship to Reality Drift
+
+The Semantic Fidelity Project sits within the Reality Drift framework.
+
+Semantic fidelity concerns the strength of the connection between a representation and what it is meant to preserve.
+
+Semantic drift describes the weakening of that connection over time.
+
+Reality Drift describes the broader system-level condition that can emerge when representations begin displacing the realities they were created to track.
+
+The Drift Principle connects these ideas:
+
+> Representations can be compressed, optimized, distributed, and reused faster than reality can correct them.
+
+## Author
+
+A. Jacobs
+
+2026
+
+Semantic Fidelity Project
