@@ -1,4 +1,4 @@
-# Glossary and Guides
+# Glossary
 
 This directory contains reference materials supporting the Semantic Fidelity framework.
 
@@ -11,10 +11,6 @@ These documents define core terminology, clarify related concepts, and provide p
 ### Semantic Fidelity Canonical Lexicon
 
 The canonical glossary of terms used throughout the Semantic Fidelity framework, providing consistent definitions for its core concepts and vocabulary.
-
-### Proxy Optimization and Metric Gaming
-
-A reference guide examining how optimization for measurable signals can gradually replace the underlying goals those signals were intended to represent, contributing to semantic degradation across complex systems.
 
 ---
 
