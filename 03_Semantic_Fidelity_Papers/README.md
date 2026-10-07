@@ -4,7 +4,7 @@ This is a six-paper conceptual paper series examining how meaning is preserved, 
 
 Its central concern is simple:
 
-**A representation can remain accurate, coherent, and recognizable while losing important parts of the meaning it was meant to carry.**
+A representation can remain accurate, coherent, and recognizable while losing important parts of the meaning it was meant to carry.
 
 Semantic fidelity refers to the degree to which meaning survives transformation. The project develops that idea across evaluation, compression, corrective feedback, cognition, and vocabulary.
 

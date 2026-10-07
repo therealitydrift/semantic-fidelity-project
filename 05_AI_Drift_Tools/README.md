@@ -117,7 +117,5 @@ Semantic Fidelity Project
 
 These tools form part of the broader Reality Drift framework, which examines how representations, proxies, optimization, weakened constraints, and degraded feedback can allow systems to remain internally coherent while losing corrective contact with reality.
 
-**The absence of failure is not proof of alignment.  
-Coherence is not contact.**
-
-
+The absence of failure is not proof of alignment.  
+Coherence is not contact.
